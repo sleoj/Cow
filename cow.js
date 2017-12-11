@@ -14,7 +14,7 @@
 			{
 				throw new Error("missing target");
 			}
-			return this.name + " greets " + target;
+			return this.name + " greets " + target + "!";
 		}
 	};
 })(this);
