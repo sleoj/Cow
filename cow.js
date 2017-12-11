@@ -12,9 +12,9 @@
 		{
 			if (! target)
 			{
-				throw new Error("missing target");
+				return console.error("missing target");
 			}
-			return this.name + " greets " + target;
+			console.log(this.name + " greets " + target);
 		},
 		
 		lateGreets : function(target, cb)
